@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 os.getcwd()
-wine=pd.read_csv('C:\\Users\\Tressy\\Desktop\\Semester 3\\Pred Analysis\\Datasets\\wine.csv',encoding="utf8")
+wine=pd.read_csv('https://github.com/tressythomas/Data-Cleansing-/blob/master/wine.csv',encoding="utf8")
 wine.head()
 wine.info()
 #List the column names 
